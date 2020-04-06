@@ -103,6 +103,7 @@
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
 					<testMode>WEBTESTCLIENT</testMode>
+					<baseClassForTests>com.example.producer.base.BaseContractTest</baseClassForTests>
 				</configuration>
 				<dependencies>
 					<dependency>
